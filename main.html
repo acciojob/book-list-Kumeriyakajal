@@ -9,25 +9,26 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<h1>MyBookList</h1>
-	<div class="form-group">
-		Title	
+	<form class="form-group">
+		<label>Title</label>
 		<input id="title">
-		Author
+		<label>Author</label>
 		<input id="author">
-		ISBN
+		<label>ISBN#</label>
 		<input id="isbn">
 		<button id="submit">Add Book</button>
-	</div>
+	</form>
 	<table class="table table-striped">
-		<tr id="book-list">
-			<th>Title</th>
-			<th>Author</th>
-			<th>ISBN</th>
-		</tr>
-		<tr id="book-list">
+		<thead>
+			<tr>
+				<th>Title</th>
+			    <th>Author</th>
+			    <th>ISBN#</th>
+			</tr>
+		</thead>
+		<tbody id="book-list">
 			
-		</tr>
-		
+		</tbody>
 	</table>
     <script type="text/javascript" src="./script.js">
 </script>
